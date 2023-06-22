@@ -4,22 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2afe7cb-f233-4987-b87c-93c730bb3ea6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/loop/runner/CukesRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/loop/step_definitions/LoginStepDefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/loop/utilities/BrowserUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/loop/utilities/ConfigurationReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/loop/utilities/DemoQaConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/loop/utilities/DocuportConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/loop/utilities/DocuportUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/loop/utilities/DocuportWebTableUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/loop/utilities/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/loop/utilities/PizzaOrderWebTablesUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/loop/utilities/WebDriverFactory.java" afterDir="false" />
+    <list default="true" id="c2afe7cb-f233-4987-b87c-93c730bb3ea6" name="Changes" comment="day2">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/loop/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/loop/step_definitions/Hooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/LoginFeauture.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/LoginFeauture.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/LoginFeauture.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/loop/runner/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/loop/runner/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/loop/step_definitions/LoginStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/loop/step_definitions/LoginStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/LoginFeauture.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/LoginFeauture.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/loop/runner/CukesRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/loop/runner/CukesRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/loop/step_definitions/LoginStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/loop/step_definitions/LoginStepDefs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/LoginFeauture.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/LoginFeauture.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +68,7 @@
       <recent name="$PROJECT_DIR$/src/test/resources/features" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: LoginFeauture">
+  <component name="RunManager" selected="JUnit.CukesRunner">
     <configuration name="Feature: LoginFeauture" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/LoginFeauture.feature" />
@@ -114,8 +108,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cucumber-project-b1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.loop.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.loop.runner" />
+      <option name="MAIN_CLASS_NAME" value="com.loop.runner.CukesRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CukesRunner" />
         <item itemvalue="Cucumber Java.Feature: LoginFeauture" />
         <item itemvalue="Cucumber Java.Scenario: Login as a employee" />
       </list>
@@ -136,10 +146,16 @@
       <workItem from="1686871178216" duration="8940000" />
       <workItem from="1686953262836" duration="789000" />
       <workItem from="1687035487981" duration="318000" />
+      <workItem from="1687364006340" duration="4621000" />
+      <workItem from="1687387227220" duration="668000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="day2" />
+    <option name="LAST_COMMIT_MESSAGE" value="day2" />
   </component>
 </project>
