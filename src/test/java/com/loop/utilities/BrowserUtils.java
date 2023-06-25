@@ -1,9 +1,7 @@
 package com.loop.utilities;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import io.cucumber.java.Scenario;
+import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -162,5 +160,11 @@ public class BrowserUtils {
         } catch (InterruptedException e){
             e.printStackTrace();
         }
+    }
+
+    static Scenario scenario;
+    public static void screenshot(Scenario scenario){
+         byte[] screenshot = ((TakesScreenshot)Driver.getDriver()).getScreenshotAs(OutputType.BYTES);
+        scenario.attach(screenshot, "image/png", scenario.getName());
     }
 }
