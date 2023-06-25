@@ -4,16 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2afe7cb-f233-4987-b87c-93c730bb3ea6" name="Changes" comment="day2">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/loop/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/loop/step_definitions/Hooks.java" afterDir="false" />
+    <list default="true" id="c2afe7cb-f233-4987-b87c-93c730bb3ea6" name="Changes" comment="day3">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/loop/pages/GoogleSearchPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/loop/pages/WikiSearchPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/loop/step_definitions/GoogleSearchStepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/loop/step_definitions/WikiSearchStepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/google-search_data_table.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/google_search.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/google_search_outline.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/wikipedia_search.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/loop/runner/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/loop/runner/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/loop/step_definitions/LoginStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/loop/step_definitions/LoginStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/LoginFeauture.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/LoginFeauture.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/loop/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/loop/utilities/BrowserUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/html-reports/cucumber-reports.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/html-reports/cucumber-reports.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/json-reports/json-report" beforeDir="false" afterPath="$PROJECT_DIR$/target/json-reports/json-report" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/loop/runner/CukesRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/loop/runner/CukesRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/loop/step_definitions/LoginStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/loop/step_definitions/LoginStepDefs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/LoginFeauture.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/LoginFeauture.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/loop/utilities/BrowserUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/loop/utilities/BrowserUtils.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,6 +155,8 @@
       <workItem from="1687035487981" duration="318000" />
       <workItem from="1687364006340" duration="4621000" />
       <workItem from="1687387227220" duration="668000" />
+      <workItem from="1687645132745" duration="974000" />
+      <workItem from="1687660461680" duration="10471000" />
     </task>
     <servers />
   </component>
