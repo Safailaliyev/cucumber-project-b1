@@ -7,6 +7,7 @@ import org.openqa.selenium.Keys;
 import org.testng.Assert;
 
 import java.util.List;
+import java.util.Map;
 
 public class GoogleSearchStepDefs {
 
@@ -42,12 +43,17 @@ public class GoogleSearchStepDefs {
 //                googleSearchPage.searchBox.clear();
 //                googleSearchPage.searchBox.sendKeys(p + Keys.ENTER);
 //                Assert.assertEquals(p, " - Google Search", Driver.getDriver().getTitle());
-//            });
+////            });
             for (String s : items) {
                 googleSearchPage.searchBox.clear();
                 googleSearchPage.searchBox.sendKeys(s + Keys.ENTER);
                 Assert.assertEquals(s + " - Google Search", Driver.getDriver().getTitle());
             }
+
+//            for (Map<String, String> item : items) {
+//                System.out.println(item.get(items));
+//
+//            }
         }
         @When("user searches for the {string}")
         public void user_searches_for_the (String country) throws InterruptedException {

@@ -4,23 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2afe7cb-f233-4987-b87c-93c730bb3ea6" name="Changes" comment="day3">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/loop/pages/GoogleSearchPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/loop/pages/WikiSearchPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/loop/step_definitions/GoogleSearchStepDefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/loop/step_definitions/WikiSearchStepDefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/google-search_data_table.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/google_search.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/google_search_outline.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/wikipedia_search.feature" afterDir="false" />
+    <list default="true" id="c2afe7cb-f233-4987-b87c-93c730bb3ea6" name="Changes" comment="day14">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/loop/pages/DocuportBasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/loop/pages/DocuportLoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/loop/pages/ProductPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/loop/pages/SmartBearBasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/loop/pages/SmartBearLoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/loop/pages/SmartBearOrderPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/loop/step_definitions/DocuportStepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/loop/step_definitions/ProductStepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/loop/step_definitions/SmartBearStepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/docuport_Feature.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/product.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/smart_bear_order.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/loop/pages/LoginPage.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/loop/runner/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/loop/runner/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/loop/step_definitions/GoogleSearchStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/loop/step_definitions/GoogleSearchStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/loop/step_definitions/LoginStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/loop/step_definitions/LoginStepDefs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/loop/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/loop/utilities/BrowserUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/LoginFeauture.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/LoginFeauture.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/html-reports/cucumber-reports.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/html-reports/cucumber-reports.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/json-reports/json-report" beforeDir="false" afterPath="$PROJECT_DIR$/target/json-reports/json-report" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/loop/pages/LoginPage.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/loop/runner/CukesRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/loop/runner/CukesRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/loop/step_definitions/GoogleSearchStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/loop/step_definitions/GoogleSearchStepDefs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/loop/step_definitions/LoginStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/loop/step_definitions/LoginStepDefs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/loop/step_definitions/WikiSearchStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/loop/step_definitions/WikiSearchStepDefs.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/loop/utilities/BrowserUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/loop/utilities/BrowserUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/LoginFeauture.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/LoginFeauture.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/wikipedia_search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/wikipedia_search.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +77,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -76,14 +91,14 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.CukesRunner">
-    <configuration name="Feature: LoginFeauture" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: docuport_Feature" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/LoginFeauture.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/docuport_Feature.feature" />
       <option name="GLUE" value="com.loop.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="cucumber-project-b1" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: LoginFeauture" />
+      <option name="SUGGESTED_NAME" value="Feature: docuport_Feature" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -95,15 +110,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Login as a employee" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: product" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/LoginFeauture.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/product.feature" />
       <option name="GLUE" value="com.loop.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="cucumber-project-b1" />
-      <option name="NAME_FILTER" value="^Login as a employee$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Login as a employee$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Login as a employee" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: product" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Login as 4 users in Docuport" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/docuport_Feature.feature" />
+      <option name="GLUE" value="com.loop.step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="cucumber-project-b1" />
+      <option name="NAME_FILTER" value="^Login as 4 users in Docuport$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Login as 4 users in Docuport$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Login as 4 users in Docuport" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: user should be bale to place order and order should be seen in page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/smart_bear_order.feature" />
+      <option name="GLUE" value="com.loop.step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="cucumber-project-b1" />
+      <option name="NAME_FILTER" value="^user should be bale to place order and order should be seen in page$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^user should be bale to place order and order should be seen in page$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: user should be bale to place order and order should be seen in page" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -133,10 +187,15 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CukesRunner" />
-        <item itemvalue="Cucumber Java.Feature: LoginFeauture" />
-        <item itemvalue="Cucumber Java.Scenario: Login as a employee" />
+        <item itemvalue="Cucumber Java.Scenario: Login as 4 users in Docuport" />
+        <item itemvalue="Cucumber Java.Feature: docuport_Feature" />
+        <item itemvalue="Cucumber Java.Feature: product" />
+        <item itemvalue="Cucumber Java.Scenario: user should be bale to place order and order should be seen in page" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SeleniumInternalSettingsState">
+    <option name="lastUrl" value="https://beta.docuport.app/" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -157,6 +216,11 @@
       <workItem from="1687387227220" duration="668000" />
       <workItem from="1687645132745" duration="974000" />
       <workItem from="1687660461680" duration="10471000" />
+      <workItem from="1687708035082" duration="3474000" />
+      <workItem from="1687715369552" duration="2233000" />
+      <workItem from="1687717697074" duration="12295000" />
+      <workItem from="1688063140329" duration="11404000" />
+      <workItem from="1688249191662" duration="14874000" />
     </task>
     <servers />
   </component>
@@ -165,6 +229,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="day2" />
-    <option name="LAST_COMMIT_MESSAGE" value="day2" />
+    <MESSAGE value="day14" />
+    <option name="LAST_COMMIT_MESSAGE" value="day14" />
   </component>
 </project>
