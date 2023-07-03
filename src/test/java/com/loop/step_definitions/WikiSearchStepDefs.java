@@ -4,7 +4,8 @@ import com.loop.pages.WikiSearchPage;
 import com.loop.utilities.ConfigurationReader;
 import com.loop.utilities.Driver;
 import io.cucumber.java.en.*;
-import org.testng.Assert;
+import org.junit.Assert;
+
 
 import java.lang.module.Configuration;
 

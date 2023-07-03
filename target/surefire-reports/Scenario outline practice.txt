@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Scenario outline practice
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 368.129 s - in Scenario outline practice

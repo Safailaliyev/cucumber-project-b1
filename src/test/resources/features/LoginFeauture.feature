@@ -1,4 +1,4 @@
-@smoke
+
 Feature: Docuport login Logout Feature
 
   Background: will run for each scenario first
@@ -35,3 +35,10 @@ Feature: Docuport login Logout Feature
       And user enters password for supervisor
       And user clicks login button
       Then user should see the home page for supervisor
+
+  @wip
+  Scenario: Login as a client map practice
+    When user enters credentials
+      | username | b1g1_client@gmail.com |
+      | password | Group1                |
+    Then user should see the home page for client

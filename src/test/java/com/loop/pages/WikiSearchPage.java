@@ -22,7 +22,7 @@ public class WikiSearchPage {
     public WebElement imageHead;
 
 
-    @FindBy(xpath="//span[contains(text(),'Steve Jobs')]")
+    @FindBy(xpath="//span[@class='mw-page-title-main']")
     public WebElement mainHead;
 
 
