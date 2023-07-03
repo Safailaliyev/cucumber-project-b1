@@ -1,6 +1,7 @@
 package com.loop.utilities;
 
 import io.cucumber.java.Scenario;
+import org.junit.Assert;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -12,9 +13,23 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import static org.testng.Assert.assertTrue;
+
 
 public class BrowserUtils {
+
+    public static Scenario myScenario;
+
+    public static void takeScreenshot(){
+        try {
+            myScenario.log("Current url is: " + Driver.getDriver().getCurrentUrl());
+            final byte[] screenshot = ((TakesScreenshot)Driver.getDriver()).getScreenshotAs(OutputType.BYTES);
+            myScenario.attach(screenshot, "image/png", myScenario.getName());
+        } catch (WebDriverException wbd){
+            wbd.getMessage();
+        } catch (ClassCastException cce){
+            cce.getMessage();
+        }
+    }
 
     /**
      * validate if driver switched to expected url and title
@@ -36,7 +51,7 @@ public class BrowserUtils {
                 break;
             }
         }
-        assertTrue(driver.getTitle().toLowerCase().contains(expectedTitle));
+        Assert.assertTrue(driver.getTitle().toLowerCase().contains(expectedTitle));
     }
 
     public static void switchToWindow(WebDriver driver, String targetTitle) {
@@ -59,7 +74,7 @@ public class BrowserUtils {
      */
 
     public static void validateTitle(WebDriver driver, String expectedTitle) {
-        assertTrue(driver.getTitle().contains(expectedTitle));
+        Assert.assertTrue(driver.getTitle().contains(expectedTitle));
     }
 
     /**

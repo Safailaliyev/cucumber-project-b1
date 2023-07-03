@@ -9,22 +9,26 @@ Feature: Docuport Login Feature
     And click login button
 
     Then user should see the home page for each users
-      | client        | advisor         | supervisor      | employee        |
-      | Home          | Home            | Home            | Home            |
-      | Received docs | Received docs   | Received docs   | Received docs   |
-      | My uploads    | My uploads      | My uploads      | My uploads      |
-      | Invitations   | Clients         | Clients         | Clients         |
-      |               | Invitations     | Users           | Users           |
-      |               | Users           | Leads           | Bookkeeping     |
-      |               | Bookkeeping     | 1099 Form       | Reconciliations |
-      |               | 1099 Form       | Reconciliations |                 |
-      |               | Reconciliations |                 |                 |
+      | advisor         | supervisor      | employee        | client        |
+      | Home            | Home            | Home            | Home          |
+      | Received docs   | Received docs   | Received docs   | Received docs |
+      | My uploads      | My uploads      | My uploads      | My uploads    |
+      | Clients         | Clients         | Clients         | Invitations   |
+      | Invitations     | Users           | Users           |               |
+      | Users           | Leads           | Bookkeeping     |               |
+      | Leads           | Bookkeeping     | 1099 From       |               |
+      | Bookkeeping     | 1099 Form       | Reconciliations |               |
+      | 1099 Form       | Reconciliations |                 |               |
+      | Reconciliations |                 |                 |               |
+
+
+
     Examples:
       | username                  | password |
-      | b1g3_client@gmail.com     | Group3   |
       | b1g3_advisor@gmail.com    | Group3   |
       | b1g3_supervisor@gmail.com | Group3   |
       | b1g3_employee@gmail.com   | Group3   |
+      | b1g3_client@gmail.com     | Group3   |
 
 
 

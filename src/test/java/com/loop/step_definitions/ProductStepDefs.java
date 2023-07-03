@@ -3,7 +3,8 @@ import com.loop.pages.ProductPage;
 import com.loop.utilities.ConfigurationReader;
 import com.loop.utilities.Driver;
 import io.cucumber.java.en.*;
-import org.testng.Assert;
+import org.junit.Assert;
+
 
 import java.util.List;
 import java.util.Map;

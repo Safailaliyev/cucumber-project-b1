@@ -5,36 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2afe7cb-f233-4987-b87c-93c730bb3ea6" name="Changes" comment="day14">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/loop/pages/DocuportBasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/loop/pages/DocuportLoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/loop/pages/ProductPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/loop/pages/SmartBearBasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/loop/pages/SmartBearLoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/loop/pages/SmartBearOrderPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/loop/step_definitions/DocuportStepDefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/loop/step_definitions/ProductStepDefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/loop/step_definitions/SmartBearStepDefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/docuport_Feature.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/product.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/smart_bear_order.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j2.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/loop/pages/LoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/loop/pages/DocuportBasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/loop/pages/DocuportBasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/loop/pages/WikiSearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/loop/pages/WikiSearchPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/loop/runner/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/loop/runner/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/loop/step_definitions/DocuportStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/loop/step_definitions/DocuportStepDefs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/loop/step_definitions/GoogleSearchStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/loop/step_definitions/GoogleSearchStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/loop/step_definitions/LoginStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/loop/step_definitions/LoginStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/loop/step_definitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/loop/step_definitions/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/loop/step_definitions/ProductStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/loop/step_definitions/ProductStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/loop/step_definitions/SmartBearStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/loop/step_definitions/SmartBearStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/loop/step_definitions/WikiSearchStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/loop/step_definitions/WikiSearchStepDefs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/loop/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/loop/utilities/BrowserUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/LoginFeauture.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/LoginFeauture.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/loop/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/loop/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/docuport_Feature.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/docuport_Feature.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-project-b1-1.0-SNAPSHOT.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/html-reports/cucumber-reports.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/html-reports/cucumber-reports.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/json-report" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/json-reports/json-report" beforeDir="false" afterPath="$PROJECT_DIR$/target/json-reports/json-report" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/loop/pages/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/loop/pages/DocuportBasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/loop/pages/DocuportBasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/loop/pages/WikiSearchPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/loop/pages/WikiSearchPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/loop/runner/CukesRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/loop/runner/CukesRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/loop/step_definitions/DocuportStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/loop/step_definitions/DocuportStepDefs.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/loop/step_definitions/GoogleSearchStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/loop/step_definitions/GoogleSearchStepDefs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/loop/step_definitions/LoginStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/loop/step_definitions/LoginStepDefs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/loop/step_definitions/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/loop/step_definitions/Hooks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/loop/step_definitions/ProductStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/loop/step_definitions/ProductStepDefs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/loop/step_definitions/SmartBearStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/loop/step_definitions/SmartBearStepDefs.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/loop/step_definitions/WikiSearchStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/loop/step_definitions/WikiSearchStepDefs.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/loop/utilities/BrowserUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/loop/utilities/BrowserUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/LoginFeauture.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/LoginFeauture.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/wikipedia_search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/wikipedia_search.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/loop/utilities/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/loop/utilities/Driver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/docuport_Feature.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/docuport_Feature.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +199,7 @@
     </recent_temporary>
   </component>
   <component name="SeleniumInternalSettingsState">
-    <option name="lastUrl" value="https://beta.docuport.app/" />
+    <option name="lastUrl" value="https://en.wikipedia.org/wiki/Steve_Jobs" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -220,8 +224,16 @@
       <workItem from="1687715369552" duration="2233000" />
       <workItem from="1687717697074" duration="12295000" />
       <workItem from="1688063140329" duration="11404000" />
-      <workItem from="1688249191662" duration="14874000" />
+      <workItem from="1688249191662" duration="29277000" />
     </task>
+    <task id="LOCAL-00001" summary="day14">
+      <created>1688305045284</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688305045285</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -6,9 +6,10 @@ import com.loop.pages.SmartBearOrderPage;
 import com.loop.utilities.ConfigurationReader;
 import com.loop.utilities.Driver;
 import io.cucumber.java.en.*;
+import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
-import org.testng.Assert;
+
 
 public class SmartBearStepDefs {
 

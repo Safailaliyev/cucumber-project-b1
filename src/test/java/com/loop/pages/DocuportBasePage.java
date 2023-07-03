@@ -12,14 +12,24 @@ public class DocuportBasePage {
             PageFactory.initElements(Driver.getDriver(), this);
         }
 
-        public void navbar(String advisor){
-            Driver.getDriver().findElement(By.xpath("//span[.='"+ advisor +"']"));
-            BrowserUtils.justWait(1);
-        }
+//        public void navbar(String advisor){
+//            Driver.getDriver().findElement(By.xpath("//span[.='"+ advisor +"']"));
+//            BrowserUtils.justWait(1);
+//        }
+//
+//    public String getNavbar(String navbar){
+//        String actual = Driver.getDriver().findElement(By.xpath("//span[normalize-space(.)='" +navbar + "']")).getText();
+//        return actual.substring(0);
+
+
+
+    public void navbar(String navbar){
+        Driver.getDriver().findElement(By.xpath("//span[.='"+ navbar +"']"));
+        BrowserUtils.justWait(1);
+    }
 
     public String getNavbar(String navbar){
-        String actual = Driver.getDriver().findElement(By.xpath("//span[normalize-space(.)='" +navbar + "']")).getText();
-        return actual.substring(0);
+        return Driver.getDriver().findElement(By.xpath("//span[normalize-space(.)='"+ navbar +"']")).getText();
     }
         ///html/body/div/div[2]/main/nav/div[1]/div[2]/div/div/a[1]/div[2]/div/span
     //i[contains(@class, 'mdi-folder-download')]

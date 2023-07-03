@@ -7,7 +7,8 @@ import com.loop.utilities.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.testng.Assert;
+import org.junit.Assert;
+
 
 import java.util.List;
 import java.util.Map;
@@ -37,30 +38,29 @@ public class DocuportStepDefs {
     public void user_should_see_the_home_page_for_each_users(List<Map<String,String>> navbar) {
         for (Map<String, String> leftBar : navbar) {
 
-        docuportBasePage.navbar(leftBar.get("client"));
-        String actual = docuportBasePage.getNavbar((leftBar.get("client")));
-
-        String expected = leftBar.get("client");
-        Assert.assertEquals(expected, actual);
-
             docuportBasePage.navbar(leftBar.get("advisor"));
             String actual1 = docuportBasePage.getNavbar((leftBar.get("advisor")));
 
             String expected1 = leftBar.get("advisor");
-            Assert.assertEquals(expected, actual);
+            Assert.assertEquals(expected1, actual1);
 
             docuportBasePage.navbar(leftBar.get("supervisor"));
             String actual2 = docuportBasePage.getNavbar((leftBar.get("supervisor")));
 
             String expected2 = leftBar.get("supervisor");
-            Assert.assertEquals(expected, actual);
+            Assert.assertEquals(expected2, actual2);
 
             docuportBasePage.navbar(leftBar.get("employee"));
             String actual3 = docuportBasePage.getNavbar((leftBar.get("employee")));
 
             String expected3 = leftBar.get("employee");
+            Assert.assertEquals(expected3, actual3);
+
+            docuportBasePage.navbar(leftBar.get("client"));
+            String actual = docuportBasePage.getNavbar((leftBar.get("client")));
+
+            String expected = leftBar.get("client");
             Assert.assertEquals(expected, actual);
     }
-
     }
 }
