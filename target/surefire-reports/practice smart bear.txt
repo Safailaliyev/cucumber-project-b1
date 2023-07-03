@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: practice smart bear
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 11.983 s <<< FAILURE! - in practice smart bear
+practice smart bear.user should be bale to place order and order should be seen in page  Time elapsed: 11.983 s  <<< FAILURE!
+org.junit.ComparisonFailure: Order expected:<[Order]> but was:<[does not match]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at com.loop.step_definitions.SmartBearStepDefs.user_should_see_in_the_first_row_of_the_table(SmartBearStepDefs.java:97)
+	at ✽.user should see "Order" in the first row of the table(file:///Users/safailaliyev/IdeaProjects/cucumber-project-b1/src/test/resources/features/smart_bear_order.feature:17)
+
