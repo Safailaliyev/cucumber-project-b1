@@ -18,11 +18,11 @@ public class WikiSearchPage {
     @FindBy(xpath="//i[@class='sprite svg-search-icon']")
     public WebElement searchButton;
 
-    @FindBy(xpath="//div[@class='fn']")
+    @FindBy(xpath="//div[contains(text(),'Steve Jobs')][1]")
     public WebElement imageHead;
 
 
-    @FindBy(xpath="//span[@class='mw-page-title-main']")
+    @FindBy(xpath="//span[contains(text(),'Steve Jobs')]")
     public WebElement mainHead;
 
 

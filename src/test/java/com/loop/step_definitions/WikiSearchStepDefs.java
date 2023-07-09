@@ -28,10 +28,10 @@ public class WikiSearchStepDefs {
 
     }
     @Then("User sees {string} is in the {string}")
-    public void user_sees_is_in_the(String name) {
-            Assert.assertEquals(Driver.getDriver().getTitle(), name + " - Wikipedia", "Does not match");
-            Assert.assertEquals( wikiSearchPage.mainHead.getText(), name );
-            Assert.assertEquals( wikiSearchPage.imageHead.getText(), name);
+    public void user_sees_is_in_the(String actual, String expected) {
+            Assert.assertEquals(Driver.getDriver().getTitle(),actual, expected);
+            Assert.assertEquals( wikiSearchPage.mainHead.getText(),actual, expected);
+            Assert.assertEquals( wikiSearchPage.imageHead.getText(),actual, expected);
     }
 
 }

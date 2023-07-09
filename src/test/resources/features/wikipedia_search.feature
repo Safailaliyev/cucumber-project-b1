@@ -8,9 +8,9 @@ Feature: Wikipedia Search Functionality
     Then User sees "<name>" is in the "<title>"
 
     Examples:
-    |name      |title        |
-    |Steve Jobs| wiki title  |
-    |Steve Jobs| main header |
-    |Steve Jobs| image header|
+      | name       | title      |
+      | Steve Jobs | Steve Jobs |
+      | Steve Jobs | Steve Jobs |
+      | Steve Jobs | Steve Jobs |
 
 
