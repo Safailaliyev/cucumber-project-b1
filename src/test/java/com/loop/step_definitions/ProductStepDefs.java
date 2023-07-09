@@ -62,10 +62,5 @@ public class ProductStepDefs {
 
                 List<String> group3 = students.get("Group3");
                 System.out.println("group3 = " + group3);
-
-
-
-
-
         }
 }
