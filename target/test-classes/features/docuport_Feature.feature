@@ -30,6 +30,15 @@ Feature: Docuport Login Feature
       | b1g3_employee@gmail.com   | Group3   |
       | b1g3_client@gmail.com     | Group3   |
 
+  @ad
+  Scenario: Create new client
+    When login as an advisor
+    And create a new client
+    And validate that new client created
+    Then Log out as an advisor
+    Then log as a new client
+
+
 
 
 
