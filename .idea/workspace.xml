@@ -5,33 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2afe7cb-f233-4987-b87c-93c730bb3ea6" name="Changes" comment="day15">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/loop/runner/FailedRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/loop/utilities/ExcelUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/loop/utilities/TestExcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/extent.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/app/07-06-23-21-09-57-1-automation.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/app/07-09-23-10-23-35-1-automation.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/app/07-09-23-10-23-49-1-automation.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/app/07-09-23-10-24-01-1-automation.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/app/07-09-23-10-24-13-1-automation.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/app/07-09-23-10-26-17-1-automation.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/app/07-09-23-10-26-31-1-automation.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/app/07-09-23-10-26-43-1-automation.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/app/07-09-23-10-26-45-1-automation.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/loop/pages/ClientPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/loop/step_definitions/ClientStepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/softAssert.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/extent 9-Jul-23 10-23-29/test-output/extent/extent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/extent 9-Jul-23 10-26-13/test-output/extent/extent.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/loopAcademyAutomation.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loopAcademyAutomation.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/loop/pages/DocuportBasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/loop/pages/DocuportBasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/loop/pages/WikiSearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/loop/pages/WikiSearchPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/loop/runner/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/loop/runner/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/loop/step_definitions/DocuportStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/loop/step_definitions/DocuportStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/loop/step_definitions/WikiSearchStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/loop/step_definitions/WikiSearchStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/docuport_Feature.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/docuport_Feature.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/wikipedia_search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/wikipedia_search.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/loop/step_definitions/LoginStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/loop/step_definitions/LoginStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/loop/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/loop/utilities/Driver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/html-reports/cucumber-reports.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/html-reports/cucumber-reports.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/json-reports/json-report" beforeDir="false" afterPath="$PROJECT_DIR$/target/json-reports/json-report" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Wikipedia Search Functionality.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-Wikipedia Search Functionality.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Wikipedia Search Functionality.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Wikipedia Search Functionality.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/loop/pages/DocuportBasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/loop/pages/DocuportBasePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/loop/pages/WikiSearchPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/loop/pages/WikiSearchPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/loop/runner/CukesRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/loop/runner/CukesRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/loop/step_definitions/DocuportStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/loop/step_definitions/DocuportStepDefs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/loop/step_definitions/WikiSearchStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/loop/step_definitions/WikiSearchStepDefs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/docuport_Feature.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/docuport_Feature.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/wikipedia_search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/wikipedia_search.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/log4j2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/log4j2.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/loop/step_definitions/LoginStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/loop/step_definitions/LoginStepDefs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/loop/step_definitions/ProductStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/loop/step_definitions/ProductStepDefs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/loop/utilities/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/loop/utilities/Driver.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,6 +216,7 @@
       <workItem from="1688249191662" duration="29277000" />
       <workItem from="1688568177327" duration="31923000" />
       <workItem from="1688761714520" duration="2786000" />
+      <workItem from="1688882753339" duration="14078000" />
     </task>
     <task id="LOCAL-00001" summary="day14">
       <created>1688305045284</created>
@@ -224,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688305045285</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="day15">
+      <created>1688909377805</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688909377806</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +241,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="day2" />
     <MESSAGE value="day14" />
-    <option name="LAST_COMMIT_MESSAGE" value="day14" />
+    <MESSAGE value="day15" />
+    <option name="LAST_COMMIT_MESSAGE" value="day15" />
   </component>
 </project>
