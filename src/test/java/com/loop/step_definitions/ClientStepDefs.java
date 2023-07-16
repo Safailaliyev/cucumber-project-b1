@@ -38,9 +38,9 @@ public class ClientStepDefs{
         LOG.info("Account text is visible");
     }
 
-    @When("user chooses account from drop down")
-    public void user_chooses_account_from_drop_down() {
-        // assertTrue(clientPage.continueButton.isDisplayed());
+    @When("user chooses account form drop down")
+    public void user_chooses_account_form_drop_down() {
+        //assertTrue(clientPage.continueButton.isDisplayed());
         softAssertions.assertThat(clientPage.continueButton.isDisplayed()).isTrue();
         softAssertions.assertThat(clientPage.continueButton.getText()).isEqualTo("Loop Academy");
         clientPage.continueButton.click();
