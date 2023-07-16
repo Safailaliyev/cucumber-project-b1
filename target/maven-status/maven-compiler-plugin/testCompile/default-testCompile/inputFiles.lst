@@ -1,8 +1,11 @@
 /Users/safailaliyev/IdeaProjects/cucumber-project-b1/src/test/java/com/loop/step_definitions/WikiSearchStepDefs.java
+/Users/safailaliyev/IdeaProjects/cucumber-project-b1/src/test/java/com/loop/pages/ValidateButtonsPage.java
 /Users/safailaliyev/IdeaProjects/cucumber-project-b1/src/test/java/com/loop/utilities/BrowserUtils.java
 /Users/safailaliyev/IdeaProjects/cucumber-project-b1/src/test/java/com/loop/utilities/DemoQaConstants.java
 /Users/safailaliyev/IdeaProjects/cucumber-project-b1/src/test/java/com/loop/step_definitions/Hooks.java
 /Users/safailaliyev/IdeaProjects/cucumber-project-b1/src/test/java/com/loop/pages/SmartBearOrderPage.java
+/Users/safailaliyev/IdeaProjects/cucumber-project-b1/src/test/java/com/loop/pages/ClientPage.java
+/Users/safailaliyev/IdeaProjects/cucumber-project-b1/src/test/java/com/loop/step_definitions/ValidateDocuportButtonsStepDefs.java
 /Users/safailaliyev/IdeaProjects/cucumber-project-b1/src/test/java/com/loop/utilities/DocuportConstant.java
 /Users/safailaliyev/IdeaProjects/cucumber-project-b1/src/test/java/com/loop/utilities/ConfigurationReader.java
 /Users/safailaliyev/IdeaProjects/cucumber-project-b1/src/test/java/com/loop/step_definitions/SmartBearStepDefs.java
@@ -14,12 +17,15 @@
 /Users/safailaliyev/IdeaProjects/cucumber-project-b1/src/test/java/com/loop/utilities/DocuportUtils.java
 /Users/safailaliyev/IdeaProjects/cucumber-project-b1/src/test/java/com/loop/step_definitions/LoginStepDefs.java
 /Users/safailaliyev/IdeaProjects/cucumber-project-b1/src/test/java/com/loop/pages/GoogleSearchPage.java
+/Users/safailaliyev/IdeaProjects/cucumber-project-b1/src/test/java/com/loop/utilities/TestExcel.java
 /Users/safailaliyev/IdeaProjects/cucumber-project-b1/src/test/java/com/loop/step_definitions/ProductStepDefs.java
 /Users/safailaliyev/IdeaProjects/cucumber-project-b1/src/test/java/com/loop/pages/WikiSearchPage.java
+/Users/safailaliyev/IdeaProjects/cucumber-project-b1/src/test/java/com/loop/utilities/ExcelUtils.java
 /Users/safailaliyev/IdeaProjects/cucumber-project-b1/src/test/java/com/loop/step_definitions/DocuportStepDefs.java
 /Users/safailaliyev/IdeaProjects/cucumber-project-b1/src/test/java/com/loop/runner/CukesRunner.java
 /Users/safailaliyev/IdeaProjects/cucumber-project-b1/src/test/java/com/loop/utilities/DocuportWebTableUtils.java
 /Users/safailaliyev/IdeaProjects/cucumber-project-b1/src/test/java/com/loop/pages/ProductPage.java
+/Users/safailaliyev/IdeaProjects/cucumber-project-b1/src/test/java/com/loop/step_definitions/ClientStepDefs.java
 /Users/safailaliyev/IdeaProjects/cucumber-project-b1/src/test/java/com/loop/pages/DocuportBasePage.java
 /Users/safailaliyev/IdeaProjects/cucumber-project-b1/src/test/java/com/loop/utilities/Driver.java
 /Users/safailaliyev/IdeaProjects/cucumber-project-b1/src/test/java/com/loop/utilities/WebDriverFactory.java

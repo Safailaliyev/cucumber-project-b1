@@ -27,11 +27,37 @@ public class DocuportBasePage {
 
     public void navbar(String navbar1){
         Driver.getDriver().findElement(By.xpath("//span[.='"+ navbar1 +"']"));
-        BrowserUtils.justWait(1);
+        BrowserUtils.justWait(5);
     }
 
     public String getNavbar(String navbar1){
-        return Driver.getDriver().findElement(By.xpath("//span[normalize-space(.)='"+ navbar1 +"']")).getText();
+        String actualPrice = Driver.getDriver().findElement(By.xpath("//span[normalize-space(.)='" + navbar1 + "']")).getText();
+        return actualPrice.substring(0);
+
+
+
+       //return Driver.getDriver().findElement(By.xpath("//span[.='" +navbar1+ "']")).getText();
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    @FindBy(xpath = "//h3[.='Choose account']")
+    public WebElement chooseAccount;
+
+    @FindBy(xpath = "//span[.=' Continue ']")
+    public WebElement continueButton;
+
+    public void chooseAccountFromDropdown(String option){
+        Driver.getDriver().findElement(By.xpath("//span[.=' "+ option +" ']/..")).click();
     }
 
 
